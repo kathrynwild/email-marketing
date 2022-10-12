@@ -1,0 +1,757 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <title></title>
+    <style type="text/css">
+      @media only screen and (max-width:480px) {
+        body,
+        table,
+        td,
+        p,
+        a,
+        li,
+        blockquote {
+          -webkit-text-size-adjust: none !important
+        }
+        body {
+          width: 100% !important;
+          min-width: 100% !important
+        }
+        #bodyCell {
+          padding: 0 !important
+        }
+        table.strattonMobileHide {
+          display: none !important
+        }
+        table.strattonDesktopOnly,
+        td.strattonDesktopOnly,
+        th.strattonDesktopOnly,
+        tr.strattonDesktopOnly,
+        td.strattonDesktopWrapHeaderMobileNone {
+          display: none !important
+        }
+        table.strattonMobileOnly {
+          display: table !important
+        }
+        tr.strattonMobileOnly {
+          display: table-row !important
+        }
+        td.strattonMobileOnly,
+        td.strattonDesktopWrapHeader,
+        th.strattonMobileOnly {
+          display: table-cell !important
+        }
+        tr.strattonMobileNoAlign,
+        table.strattonMobileNoAlign {
+          float: none !important;
+          text-align: initial !important;
+          vertical-align: middle !important;
+          table-layout: fixed !important
+        }
+        tr.strattonMobileCenterAlign {
+          float: none !important;
+          text-align: center !important;
+          vertical-align: middle !important;
+          table-layout: fixed !important
+        }
+        td.strattonButtonCollection {
+          padding-left: 9px !important;
+          padding-right: 9px !important;
+          padding-top: 9px !important;
+          padding-bottom: 9px !important
+        }
+        td.strattonMobileHeaderStackDesktopNone,
+        img.strattonMobileHeaderStackDesktopNone,
+        td.strattonMobileHeaderStack {
+          display: block !important;
+          margin-left: auto !important;
+          margin-right: auto !important;
+          padding-bottom: 9px !important;
+          padding-right: 0 !important;
+          padding-left: 0 !important
+        }
+        td.strattonMobileWrapHeader,
+        td.strattonMobileWrapHeaderDesktopNone {
+          display: inline-block !important
+        }
+        td.strattonMobileHeaderSpacing {
+          padding-right: 10px !important
+        }
+        td.strattonMobileHeaderNoSpacing {
+          padding-right: 0 !important
+        }
+        table.strattonDesktopAutoWidth {
+          width: inherit !important
+        }
+        table.strattonMobileAutoWidth {
+          width: 100% !important
+        }
+        table.strattonTextContentContainer {
+          width: 100% !important
+        }
+        table.strattonBoxedTextContentContainer {
+          width: 100% !important
+        }
+        td.strattonImageContent {
+          padding-left: 0 !important;
+          padding-right: 0 !important
+        }
+        img.strattonImage {
+          width: 100% !important
+        }
+        td.strattonMobileStretch {
+          padding-left: 0 !important;
+          padding-right: 0 !important
+        }
+        table.strattonSplitContentLeftContentContainer,
+        table.strattonSplitContentRightContentContainer,
+        table.strattonColumnContainer,
+        td.strattonVerticalButtonBarContentOuter table.strattonButtonBarContent,
+        td.strattonVerticalButtonCollectionContentOuter table.strattonButtonCollectionContent,
+        table.strattonVerticalButton,
+        table.strattonVerticalButtonContent {
+          width: 100% !important
+        }
+        td.strattonButtonCollectionInner {
+          padding-left: 9px !important;
+          padding-right: 9px !important;
+          padding-top: 9px !important;
+          padding-bottom: 9px !important
+        }
+        td.strattonVerticalButtonIconContent,
+        td.strattonVerticalButtonTextContent,
+        td.strattonVerticalButtonContentOuter {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+          padding-bottom: 9px !important
+        }
+        table.strattonSplitContentLeftContentContainer td.strattonTextContent,
+        table.strattonSplitContentRightContentContainer td.strattonTextContent,
+        table.strattonColumnContainer td.strattonTextContent,
+        table.strattonSplitContentLeftContentContainer td.strattonImageContent,
+        table.strattonSplitContentRightContentContainer td.strattonImageContent {
+          padding-top: 9px !important
+        }
+        td.rowContainer.strattonFloatLeft,
+        td.rowContainer.strattonFloatLeft,
+        td.rowContainer.strattonFloatLeft.firstColumn,
+        td.rowContainer.strattonFloatLeft.firstColumn,
+        td.rowContainer.strattonFloatLeft.lastColumn,
+        td.rowContainer.strattonFloatLeft.lastColumn {
+          float: left;
+          clear: both;
+          width: 100% !important
+        }
+        table.templateContainer,
+        table.templateContainer.brandingContainer,
+        div.templateContainer,
+        div.templateContainer.brandingContainer,
+        table.templateRow {
+          max-width: 600px !important;
+          width: 100% !important
+        }
+        h1 {
+          font-size: 40px !important;
+          line-height: 1.1 !important
+        }
+        h2 {
+          font-size: 32px !important;
+          line-height: 1.1 !important
+        }
+        h3 {
+          font-size: 24px !important;
+          line-height: 1.1 !important
+        }
+        h4 {
+          font-size: 18px !important;
+          line-height: 1.1 !important
+        }
+        td.strattonTextContent {
+          font-size: 14px !important;
+          line-height: 1.3 !important
+        }
+        td.strattonTextBlockInner td.strattonTextContent {
+          padding-right: 18px !important;
+          padding-left: 18px !important
+        }
+        table.strattonTableBlock.strattonTableMobile td.strattonTableBlockInner {
+          padding-left: 9px !important;
+          padding-right: 9px !important
+        }
+        table.strattonTableBlock.strattonTableMobile td.strattonTableBlockInner .strattonTextContent {
+          font-size: 14px !important;
+          line-height: 1.3 !important;
+          padding-left: 4px !important;
+          padding-right: 4px !important
+        }
+      }
+    </style>
+
+    <!--[if mso]>
+    <style>
+      .templateContainer {
+        border: 0px none #aaaaaa;
+        background-color: #ffffff;
+          border-radius: 0px;
+      }
+      #brandingContainer {
+        background-color: transparent !important;
+        border: 0;
+      }
+      .templateContainerInner {
+        padding: 0px;
+      }
+    </style>
+  <![endif]-->
+    <style>
+      span.yshortcuts:hover {
+        background-color: none !important;
+        border: none !important
+      }
+      span.yshortcuts:active {
+        background-color: none !important;
+        border: none !important
+      }
+      span.yshortcuts:focus {
+        background-color: none !important;
+        border: none !important
+      }
+      .rowContainer .strattonTextContent a:link {
+        color: #15C;
+        font-weight: normal;
+        text-decoration: underline
+      }
+      .rowContainer .strattonTextContent a:visited {
+        color: #15C;
+        font-weight: normal;
+        text-decoration: underline
+      }
+      .strattonTable .strattonTableRow:last-child>td {
+        border-bottom: none !important
+      }
+    </style>
+    <style>
+      #outlook a {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        padding-bottom: 0
+      }
+      .ReadMsgBody {
+        width: 100%
+      }
+      .ExternalClass {
+        width: 100%
+      }
+      span.yshortcuts {
+        background-color: none !important;
+        border: none !important
+      }
+      body {
+        margin: 0;
+        padding: 0
+      }
+      a {
+        word-wrap: break-word !important;
+        max-width: 100%;
+        color: #ffffff
+      }
+      img {
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+        max-width: 100%
+      }
+      img[align="left"] {
+        margin-right: 0
+      }
+      img[align="right"] {
+        margin-left: 0
+      }
+      table,
+      td {
+        border-collapse: collapse;
+        mso-table-lspace: 0;
+        mso-table-rspace: 0;
+        table-layout: fixed
+      }
+      p {
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-bottom: 1em
+      }
+      #bodyTable,
+      #bodyCell {
+        height: 100% !important;
+        margin: 0;
+        width: 100% !important;
+        table-layout: auto
+      }
+      #bodyTable {
+        padding: 0
+      }
+      #bodyCell {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-right: 20px;
+        border-top: 0
+      }
+      body,
+      #bodyTable {
+        background-color: #F7F7F7
+      }
+      .templateContainer {
+        border: 0 none #aaa;
+        background-color: #003753;
+        border-radius: 0
+      }
+      .brandingContainer {
+        background-color: transparent;
+        border: 0
+      }
+      .templateContainerInner {
+        padding: 0
+      }
+      h1 {
+        color: #222 !important;
+        display: block;
+        font-family: "Helvetica Neue", Arial;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1.1;
+        letter-spacing: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: left
+      }
+      h2 {
+        color: #222 !important;
+        display: block;
+        font-family: "Helvetica Neue", Arial;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 1.1;
+        letter-spacing: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 16px;
+        text-align: left
+      }
+      h3 {
+        color: #222 !important;
+        display: block;
+        font-family: "Helvetica Neue", Arial;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: bold;
+        line-height: 1.1;
+        letter-spacing: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 12px;
+        text-align: left
+      }
+      h4 {
+        color: #222 !important;
+        display: block;
+        font-family: "Helvetica Neue", Arial;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: italic;
+        line-height: 1.1;
+        letter-spacing: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 9px;
+        text-align: left
+      }
+      .rowContainer .strattonTextContent {
+        color: #222;
+        font-family: Georgia;
+        font-size: 16px;
+        line-height: 1.3;
+        letter-spacing: 0;
+        text-align: left;
+        max-width: 100%;
+        word-wrap: break-word
+      }
+      .rowContainer .strattonTextContent .strattonParagraph {
+        padding-bottom: 9px
+      }
+      .strattonImageContent {
+        padding: 0;
+        font-size: 0
+      }
+      .strattonImage {
+        padding-bottom: 0;
+        display: inline !important;
+        vertical-align: top;
+        border: 0;
+        height: auto;
+        line-height: 100%;
+        outline: none;
+        text-decoration: none;
+        font-size: 12px;
+        width: 100%
+      }
+      .strattonButtonBlockInner,
+      .strattonButtonCollectionInner {
+        min-width: 60px;
+        padding: 9px 18px
+      }
+      .strattonButtonBlockIcon {
+        border-radius: 10px;
+        padding: 3px 3px
+      }
+      .strattonButtonContentContainer {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        background-color: #999;
+        border-collapse: separate
+      }
+      .strattonButtonContent {
+        color: white;
+        font-family: Georgia;
+        font-size: 16px
+      }
+      .strattonButton {
+        font-weight: bold;
+        line-height: 100%;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        font-family: Georgia;
+        font-size: 16px
+      }
+      .strattonButtonBarContent,
+      .strattonButtonCollectionContent {
+        font-family: Georgia
+      }
+      .strattonVerticalButtonContent {
+        border-collapse: separate
+      }
+      .strattonMobileOnly {
+        display: none
+      }
+      .strattonDesktopWrapHeader,
+      .strattonDesktopWrapHeaderMobileNone {
+        display: inline-block
+      }
+      .strattonHide {
+        display: none
+      }
+      .strattonMobileHeaderStackDesktopNone,
+      .strattonMobileWrapHeaderDesktopNone {
+        display: none
+      }
+      .strattonDesktopAutoWidth {
+        width: 100%
+      }
+    </style>
+  </head>
+  <body>
+    <div style="display:none !important;visibility:hidden;mso-hide:all;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">Meet our newest design →</div>
+    <div style="display:none !important;visibility:hidden;mso-hide:all;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌</div>
+    <center>
+      <table align="center" border="0" cellpadding="0" cellspacing="0" data-upload-file-url="/ajax/email-editor/file/upload" data-upload-files-url="/ajax/email-editor/files/upload" id="bodyTable" width="100%">
+        <tbody>
+          <tr>
+            <td align="center" id="bodyCell" valign="top">
+
+              <!--[if !mso]>
+              <!-->
+                <div class="templateContainer" style="display: table; width:600px">
+                <div class="templateContainerInner">
+              <!--<![endif]-->
+
+                    <table border="0" cellpadding="0" cellspacing="0" class="strattonImageBlock strattonDesktopOnly" style="min-width:100%" width="100%">
+                      <tbody class="strattonImageBlockOuter">
+                        <tr>
+                          <td class="strattonImageBlockInner" style="padding:0px;padding-left:0px;padding-right:0px;" valign="top">
+                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="strattonImageContentContainer" style="min-width:100%" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td class="strattonImageContent" style="padding:0;" valign="top">
+                                    <a target="_self" href="https://strattoninternational.com/wp-content/uploads/2022/07/27016-langside-ave-brochure-22-07-14.pdf">
+                                      <img align="left" alt="NEW LISTING FOR SALE - gif" class="gif" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/06d3f358-e3ea-4a76-baaf-6c8b526318a0/tem_152/new-listing-for-sale.gif" style="max-width:800px;padding:0;border-width:0;" width="600">
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                      <tbody>
+                        <tr>
+                          <td align="center" valign="top">
+                            <table border="0" cellpadding="0" cellspacing="0" class="templateRow" width="100%">
+                              <tbody>
+                                <tr>
+                                  <td class="rowContainer strattonFloatLeft" valign="top">
+                                    <table border="0" cellpadding="0" cellspacing="0" class="strattonImageBlock strattonDesktopOnly" style="min-width:100%" width="100%">
+                                      <tbody class="strattonImageBlockOuter">
+                                        <tr>
+                                          <td class="strattonImageBlockInner" style="padding:0px;padding-left:0px;padding-right:0px;" valign="top">
+                                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="strattonImageContentContainer" style="min-width:100%" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="strattonImageContent" style="padding:0;" valign="top">
+                                                    <a target="_self" href="https://strattoninternational.com/property/27016-langside-ave/">
+                                                      <img align="left" alt="Stratton International logo, Suitable for Retail, Office, Medical, Owner/User Fresstanding opportunity, For Sale - Santa Clarita, CA" class="strattonImage" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/06d3f358-e3ea-4a76-baaf-6c8b526318a0/tem_152/Slide%2016_9%20-%2015.png" style="max-width:800px;padding:0;border-width:0;" width="600">
+                                                    </a>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                    <table border="0" cellpadding="0" cellspacing="0" class="strattonImageBlock strattonDesktopOnly" style="min-width:100%" width="100%">
+                                      <tbody class="strattonImageBlockOuter">
+                                        <tr>
+                                          <td class="strattonImageBlockInner" style="padding:0px;padding-left:0px;padding-right:0px;" valign="top">
+                                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="strattonImageContentContainer" style="min-width:100%" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="strattonImageContent" style="padding:0;" valign="top">
+                                                    <a target="_self" href="https://strattoninternational.com/wp-content/uploads/2022/07/27016-langside-ave-brochure-22-07-14.pdf">
+                                                      <img align="left" alt="Freestanding Building, Securely Fenced Lot, Newly Striped Lot, 2x4 ton Air Conditioner, 400 Amps of 240V, Sweeping Glass Frontage, Property Info, 2,501 bldg sf, 7,871 lot sf, Year Built-1969, Zoning-SCCN, Power-400A 240V, Parking-8 Spaces, [Download Brochure]" class="strattonImage" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/06d3f358-e3ea-4a76-baaf-6c8b526318a0/tem_152/Slide%2016_9%20-%2021.png" style="max-width:800px;padding:0;border-width:0;" width="600">
+                                                    </a>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+
+                                    <table border="0" cellpadding="0" cellspacing="0" class="strattonImageBlock strattonDesktopOnly" style="min-width:100%" width="100%">
+                                      <tbody class="strattonImageBlockOuter">
+                                        <tr>
+                                          <td class="strattonImageBlockInner" style="padding:0px;padding-left:0px;padding-right:0px;" valign="top">
+                                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="strattonImageContentContainer" style="min-width:100%" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="strattonImageContent" style="padding:0;" valign="top">
+                                                    <a target="_self" href="https://strattoninternational.com/property/27016-langside-ave/">
+                                                      <img align="left" alt="Asking Price: $1,425,00, *Submit All Offers*, Offered Exclusively By: Robert Stratton, 661-212-5699, Robert@StrattonInternational.com, DRE: 01182000, Offering Summary, Stratton International is pleased to present 27016 Langside Avenue, 2,501 sq.ft. of building area on 7,873 sq.ft. of SCCN zoned land in Santa Clarita, CA 91351. This is a unique opportunity for retail, office, or medical building development. This property has pre-approved plans to paint additional parking stripes, making it suitable for medical use. The building front features floor-to-ceiling windows, showcasing street- view access. The perimeter is securely fenced with two curb-cuts and 60 ft of frontage along Langside Ave. Contact Robert Stratton for more information regarding this turn-key opportunity." class="strattonImage" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/06d3f358-e3ea-4a76-baaf-6c8b526318a0/tem_152/Slide%2016_9%20-%2026.png" style="max-width:800px;padding:0;border-width:0;" width="600">
+                                                    </a>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                    <table border="0" cellpadding="0" cellspacing="0" class="strattonImageBlock strattonDesktopOnly" style="min-width:100%" width="100%">
+                                      <tbody class="strattonImageBlockOuter">
+                                        <tr>
+                                          <td class="strattonImageBlockInner" style="padding:0px;padding-left:0px;padding-right:0px;" valign="top">
+                                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="strattonImageContentContainer" style="min-width:100%" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="strattonImageContent" style="padding:0;" valign="top">
+                                                    <a target="_self" href="https://my.matterport.com/show/?m=n6roKDkFPvs&cloudEdit=1&sr=-.03,-.02&ss=3https://my.matterport.com/show/?m=n6roKDkFPvs&cloudEdit=1&sr=-.03,-.02&ss=3">
+                                                      <img align="left" alt="Click for 3D Walkthrough, Approved Restriping Plans for medical use" class="strattonImage" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/06d3f358-e3ea-4a76-baaf-6c8b526318a0/tem_152/Slide%2016_9%20-%2022.png" style="max-width:800px;padding:0;border-width:0;" width="600">
+                                                    </a>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                    <table border="0" cellpadding="0" cellspacing="0" class="strattonImageBlock strattonDesktopOnly" style="min-width:100%" width="100%">
+                                      <tbody class="strattonImageBlockOuter">
+                                        <tr>
+                                          <td class="strattonImageBlockInner" style="padding:0px;padding-left:0px;padding-right:0px;" valign="top">
+                                            <table align="left" border="0" cellpadding="0" cellspacing="0" class="strattonImageContentContainer" style="min-width:100%" width="100%">
+                                              <tbody>
+                                                <tr>
+                                                  <td class="strattonImageContent" style="padding:0;" valign="top">
+                                                    <a target="_self" href="https://strattoninternational.com/property/27016-langside-ave/">
+                                                      <img align="left" alt="Property Location: Map, 661-212-5699, Robert@StrattonInternational.com" class="strattonImage" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/06d3f358-e3ea-4a76-baaf-6c8b526318a0/tem_152/Slide%2016_9%20-%2023.png" style="max-width:800px;padding:0;border-width:0;" width="600">
+                                                    </a>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+
+                                  <table border="0" cellpadding="0" cellspacing="0" class="strattonImageBlock" style="min-width:100%" width="100%" background-color="#f0f0f0">
+                                    <tbody class="strattonImageBlockOuter">
+                                      <tr>
+                                        <td class="strattonImageBlockInner" style="padding:0px;padding-left:0px;padding-right:0px;" valign="top">
+                                          <table align="left" border="0" cellpadding="0" cellspacing="0" class="strattonImageContentContainer" style="min-width:100%" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td class="strattonImageContent" style="padding:0;" valign="top">
+                                                  <a target="_self" href="https://strattoninternational.com/properties/">
+                                                    <img align="left" alt="Other Exclusive Listings: 28442 Constellation Rd, 23942 Lyons Ave, 120 N Victory Blvd" class="strattonImage" src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/06d3f358-e3ea-4a76-baaf-6c8b526318a0/tem_152/Slide%2016_9%20-%2019.png" style="max-width:600px;padding:0;border-width:0;" width="600">
+                                                  </a>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td align="center" valign="top">
+                          <table border="0" cellpadding="0" cellspacing="0" class="templateRow" width="100%">
+                            <tbody>
+                              <tr>
+                                <td class="rowContainer strattonFloatLeft" valign="top">
+                                  <table border="0" cellpadding="0" cellspacing="0" class="strattonButtonBarBlock" width="100%">
+                                    <tbody class="strattonButtonBarOuter">
+                                      <tr>
+                                        <td align="center" class="strattonButtonBarInner" style="padding-top:15px;padding-left:9px;padding-bottom:9px;padding-right:9px;" valign="top">
+                                          <table border="0" cellpadding="0" cellspacing="0" class="strattonButtonBarContentContainer" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td align="center" style="padding-left:9px;padding-right:9px;">
+                                                  <table border="0" cellpadding="0" cellspacing="0" class="strattonButtonBarContent">
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center" valign="top">
+                                                          <table border="0" cellpadding="0" cellspacing="0">
+                                                            <tbody>
+                                                              <tr>
+                                                                <td valign="top">
+                                                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="">
+                                                                    <tbody>
+                                                                      <tr>
+                                                                        <td align="center" style="padding-right:10px;" valign="top">
+                                                                          <a target="_blank" href="https://www.linkedin.com/company/strattoninternational/"><img alt="LinkedIn - StrattonInternational" class="strattonButtonBlockIcon" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-outline-circle-white/linkedin@2x.png" style="width:48px; max-width:48px; display:block;" width="20"></a>
+                                                                        </td>
+                                                                      </tr>
+                                                                    </tbody>
+                                                                  </table>
+
+                                                                  <!--[if gte mso 6]></td><td align="left" valign="top"><![endif]-->
+                                                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="">
+                                                                    <tbody>
+                                                                      <tr>
+                                                                        <td align="center" style="padding-right:10px;" valign="top">
+                                                                          <a target="_blank" href="https://www.facebook.com/strattoninternational"><img alt="Facebook - Stratton International" class="strattonButtonBlockIcon" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-outline-circle-white/facebook@2x.png" style="width:48px; max-width:48px; display:block;" width="20"></a>
+                                                                        </td>
+                                                                      </tr>
+                                                                    </tbody>
+                                                                  </table>
+
+                                                                  <!--[if gte mso 6]></td><td align="left" valign="top"><![endif]-->
+                                                                  <table align="left" border="0" cellpadding="0" cellspacing="0" class="">
+                                                                    <tbody>
+                                                                      <tr>
+                                                                        <td align="center" style="" valign="top">
+                                                                          <a target="_blank" href="https://www.instagram.com/strattoninternational/"><img alt="Instagram - Stratton International" class="strattonButtonBlockIcon" src="https://app-rsrc.getbee.io/public/resources/social-networks-icon-sets/t-outline-circle-white/instagram@2x.png" style="width:48px; max-width:48px; display:block;" width="20"></a>
+                                                                        </td>
+                                                                      </tr>
+                                                                    </tbody>
+                                                                  </table>
+
+                                                                  <!--[if gte mso 6]></td><td align="left" valign="top"><![endif]-->
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <table border="0" cellpadding="0" cellspacing="0" class="strattonTextBlock" width="100%">
+                                    <tbody class="strattonTextBlockOuter">
+                                      <tr>
+                                        <td class="strattonTextBlockInner" style="padding-left:15px;padding-right:15px;" valign="top">
+                                          <table align="left" border="0" cellpadding="0" cellspacing="0" class="strattonTextContentContainer" width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <td class="strattonTextContent" style="padding-top:9px;padding-bottom:35px;padding-left:55px;padding-right:55px;color:#ffffff;font-size:12px;text-align:center;" valign="top">
+                                                  <a href="tel:6617029700">661.702.9700.  |</a> <a href = "StrattonInternational.com">  StrattonInternational.com </a>
+                                                  <p><span style="“font-size:14px;“">© Stratton International</span></p>
+                                                  <p>The information in this email has been obtained from sources believed to be reliable. While we do not doubt its accuracy, we have not verified it and make no guarantee, warranty or representation about it. It is your responsibility to independently confirm its accuracy and completeness. <a class="unsubscribe-link" style="color:#1155CC;font-weight:normal;text-decoration:underline;" href="#">Unsubscribe</a>.</p>
+                                                  <p style="padding-bottom:0"><span style="“font-size:14px;“">28005 Smyth Dr, Valencia, CA 91355</span></p>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                  <!--[if !mso]>
+
+                <!-->
+                  </div>
+                </div>
+                <div style="display:none !important;visibility:hidden;mso-hide:all;font-size:1px;color:#f0f0f0;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">‌</div>
+
+                <!--<![endif]-->
+
+              <!--[if mso]>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            <![endif]-->
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </center>
+  </body>
+</html>
